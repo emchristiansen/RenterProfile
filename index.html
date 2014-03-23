@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Eric Christiansen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">-->
+<link rel="shortcut icon" type="image/png" href="http://www.gravatar.com/avatar/c8511325f6d8cb485382c0de40975b65.png")">
+
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+<link href="http:////netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"> 
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+<!--<link rel="stylesheet" href=@routes.Assets.at("bootstrap/css/bootstrap.min.css")>-->
+<!--<script src=@routes.Assets.at("bootstrap/js/bootstrap.min.js")></script>-->
+
+<script type="text/javascript">
+!function ($) {
+  $(function(){
+      $('#running-box, #bg-car').carousel({});
+
+      var $root = $('html, body');
+
+      $('a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+scrollTop: $(href).offset().top - 50
+}, 200, function () {
+window.location.hash = href;
+});
+        return false;
+        });
+      })
+}(window.jQuery)
+</script>
+
+<style>
+body { padding-top: 50px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#EricChristiansen">Eric Christiansen</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#AboutMe">About me</a></li>
+        <li><a href="#WhatImLookingFor">What I'd like</a></li>
+        <li><a href="#Dates">Dates</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/emchristiansen/emchristiansen.github.io">Source</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1 id="EricChristiansen">Renter profile for Eric Christiansen</h1>
+  <p>
+  I'm moving to the Bay Area to join Google, and I'm looking for a place to live.
+  I hope this profile will help potential landlords and / or flatmates get of sense of who I am.
+  You can contact me at: eric at sparse dot st.
+  </p>
+
+  <p>
+  This profile was last updated 22 March 2014.
+  </p>
+
+  <h1 id="AboutMe">About me</h1>
+  <h2>General</h2>
+  <p>
+  I'm a 28 year old, male, nearly-finished PhD candidate at UCSD in computer science, specifically computer vision.
+  My interests include CrossFit, Brazilian Jiu-Jitsu, music, computer gaming, and programming.
+  These links provide some more detail.
+  </p>
+  <ul>
+    <li><a href="https://www.facebook.com/ericmartinchristiansen">Facebook</a></li>
+    <li><a href="https://plus.google.com/114834902961564956461/posts">Google+</a></li>
+    <li><a href="http://sparse.st">My research / project site</a></li>
+  </ul>
+  <p>
+  Also, I don't smoke and don't have pets.
+  </p>
+
+  <h2>My job</h2>
+  <p>
+  I will be employed full-time as a software engineer in Google Research, starting 31 March 2014.
+  </p>
+  
+  <h2>History</h2>
+  <p>
+  If you're going to share your home with someone, you want to know you can trust that person.
+  For this reason, I can provide references from prior landlords on request.
+  I also have an excellent (I think perfect) credit rating, and can share the results of a recent background check.
+  </p>
+
+  <h1 id="WhatImLookingFor">What I'd like</h1>
+  <p>
+  My ideal home would be within a quick bike ride to <a href="https://www.google.com/maps/place/1600+Amphitheatre+Pkwy/@37.4219984,-122.0839542,17z/data=!3m1!4b1!4m2!3m1!1s0x808fba027820e5d9:0x60a90600ff6e7e6e">Google headquarters</a>.
+  Failing that, it should be near a Google shuttle stop.
+  I also value proximity to Caltrain, Stanford, and a Crossfit gym.
+  </p>
+
+  <p>
+  I'd prefer to have one or several flatmates to keep things interesting, so long as they're clean and have some aesthetic sense.
+  Left to my own devices, I'd probably turn a flat into an ultra-minimalist, reconfigurable space with art projected onto the walls. 
+  </p>
+  
+  <p>
+  I don't have pets, but I love animals and I'm open to living with them so long as they are well-behaved.
+  </p>
+
+  <h1 id="Dates">Dates</h1>
+  I'm moving to the Bay Area in late March 2014, and would like to move in ASAP. 
+
+  My ideal lease range is between 3 and 6 months with an option for monthly renewals thereafter.
+
+</body>
+</html>
